@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* #navbarSupportedContent{
+  
+margin-left: 650px;
+} */
+#navbarSupportedContent li {
+    margin: 0px 20px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    background-color: red;
+}
+.logo img{
+    width: 100%; height: 100%; 
+    border-radius:30px;
+}
+
+.mark {
+    height: 10px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.mark1 {
+    height: 10px;
+    width: 80%;
+    background-color: rgb(163, 224, 219);
+}
+
+.mark2 {
+    height: 10px;
+    width: 20%;
+    background-color: rgb(146, 142, 142);
+}
+/* .logo1 {
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 30px;
+    margin: 0px 10px;
+}  */
+.logoimg{
+   width: 30px;
+   height: 30px;
+   border-radius: 30px;
+}
+.div_card {
+    padding: 30px;
+    background-color: rgb(231, 240, 248);
+}
+
+.card_div1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 5px 50px;
+    height: 270px;
+    width: 300px;
+    padding: 5px 10px;
+}
+
+.card img {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+
+.text_logo {
+    display: flex;
+}
+
+.details_card {
+    /* height: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_course {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #f2f2f2;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0px 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 10px;
+    margin: 15px 50px;
+
+}
+
+
+#icon1 {
+    font-size: 30px;
+}
+
+#icon2 {
+    font-size: 30px
+}
+
+#icon3 {
+    font-size: 30px;
+}
+
+#icon4 {
+    font-size: 30px;
+}
+
+.locondiv{
+    display:flex;
+    flex-direction: column;
+}
+.information_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 240, 248);
+    padding: 20px;
+}
+.card_info{
+    margin: 5px 30px;
+    height: 350px;
+    width: 250px;
+    padding: 5px 5px;
+    background-color: white;
+   
+}
+.card_info p{
+    text-align: left;
+}
+.card_info h5{
+    margin-left: 10px;
+}
+.card_info img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+
+.info_card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.card2_info{
+    margin: 5px 30px;
+    height: 350px;
+    width: 250px;
+    padding: 5px 5px;
+    background: #f2f2f2;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0px 10px 10px rgba(0, 0, 0, 0.22);
+    
+}
+    
+
+
+.card2_info img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+
+.cocaching{
+    margin-top:30px ;
+    height: 200px ;
+    width: 100%;
+    background-color: rgb(60, 58, 58);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 9px 5px ;
+}
+.button{
+    padding: 5px 20px;
+    background-color:rgb(127, 214, 236);
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top:30px ;
+    height: 200px ;
+    width: 100%;
+    background-color: rgb(60, 58, 58);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px 5px ;
+}
+.footer_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.vertical_line{
+    height: 30px ;
+    width: 2px;
+    background-color: white;
+    margin: 0px 10px;
+}
+#searcha{
+    margin: 10px 20px ;
+    background-color:  rgb(60, 58, 58);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width:455px) {
+   .cocaching{
+    height: 230px;
+   }
+    .cocaching p,h3{
+        font-size: 13px;
+        /* padding: 0px; */
+    }
+    .card{
+        margin: 10px 0px;
+        width: 270px;
+    }
+    .card img {
+        width: 230px;
+        height: 150px;
+        border-radius: 8px;
+        margin:0px;
+    }
+    
+}
+@media screen and (max-width:355px){
+    .footer{
+        height: 250px;
+    }
+    .footer h5,p{
+        font-size: 15px;
+    }
+}
